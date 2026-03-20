@@ -342,7 +342,8 @@ function getMapping(code) {
 }
 
 function getLabelForHex(hex) {
-  const match = KEY_GROUPS.flatMap((group) => group.keys).find((key) => key.hex.toString(16) === hex);
+  const hexValue = Number.parseInt(hex, 16);
+  const match = KEY_GROUPS.flatMap((group) => group.keys).find((key) => key.hex === hexValue);
   return match ? match.key : hex.toUpperCase();
 }
 

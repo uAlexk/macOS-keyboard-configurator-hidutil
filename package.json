@@ -3,6 +3,6 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "start": "python3 -m http.server 3000 --directory public"
+    "start": "python3 -m http.server 3000"
   }
 }

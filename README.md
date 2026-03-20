@@ -1,3 +1,4 @@
+https://ualexk.github.io/macOS-keyboard-configurator-hidutil/
 
 # HIDUTIL key remapping generator for MacOS ⌨
 

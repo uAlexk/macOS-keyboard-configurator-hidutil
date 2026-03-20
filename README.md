@@ -23,8 +23,6 @@ Run it with Python's built-in static file server:
 
 Then open [http://localhost:3000](http://localhost:3000).
 
-For GitHub Pages, the site files now live at the repository root, so publishing from the default Pages source works.
-
 If you prefer `npm`, there is also a thin wrapper script:
 
 `npm start`

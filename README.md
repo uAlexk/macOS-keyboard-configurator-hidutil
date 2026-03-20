@@ -2,7 +2,7 @@ https://ualexk.github.io/macOS-keyboard-configurator-hidutil/
 
 # HIDUTIL key remapping generator for MacOS ⌨
 
-Basic MacOS key remapping without external software using [hidutil](https://developer.apple.com/library/archive/technotes/tn2450/_index.html). With most of the key remapping software not working in MacOS Big Sur Beta, this is the easiest way to do it.
+Basic MacOS key remapping without external software using [hidutil](https://developer.apple.com/library/archive/technotes/tn2450/_index.html). 
 
 ## Instructions
 

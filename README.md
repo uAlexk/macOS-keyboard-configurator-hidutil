@@ -6,34 +6,22 @@ Basic MacOS key remapping without external software using [hidutil](https://deve
 ## Instructions
 
 1. Open the [hidutil generator tool](https://hidutil-generator.netlify.app/)
-2. Setup your key remaps
-3. Copy the generated configuration to `~/Library/LaunchAgents/com.local.KeyRemapping.plist`
-4. Reboot computer
+2. Click a key on the on-screen MacBook keyboard
+3. Press the key you want it to become
+4. Repeat for any other remaps you want
+5. Copy the generated `hidutil property --set '...'` command
+6. Run it in Terminal
 
 ## Setting up locally
 
-`yarn install`
+This version has no third-party dependencies or build step.
 
-Install npm dependencies.
+Run it with Python's built-in static file server:
 
-`yarn start`
+`python3 -m http.server 3000 --directory public`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Then open [http://localhost:3000](http://localhost:3000).
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+If you prefer `npm`, there is also a thin wrapper script:
 
-`yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-`yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm start`
